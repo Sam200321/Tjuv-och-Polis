@@ -67,7 +67,7 @@ namespace TjuvOchPolis
                 Console.WriteLine($"Antal gripna tjuvar: {antalGripna}");
 
                 // Pausa lite mellan varje "rörelse"
-                Thread.Sleep(500);
+                Thread.Sleep(100); // Ändrad från 500 till 100 för en snabbare uppdatering
             }
         }
 
