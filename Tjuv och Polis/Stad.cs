@@ -56,7 +56,7 @@ namespace TjuvOchPolis
                                 tjuv3.Rana(medborgare2);
                                 antalRånade++;
                             }
-                            Thread.Sleep(2000);
+                            Thread.Sleep(500);
                         }
                     }
                 }
